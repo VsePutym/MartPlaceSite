@@ -1932,7 +1932,7 @@
         color: #fff;
     }
     &-btn {
-        button {
+        a {
             box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
             border-radius: 28px;
             border: none;
@@ -2028,7 +2028,7 @@
 .feedback__btn {
     margin-bottom: 120px;
     text-align: center;
-    button {
+    a {
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
         background-color: $button;
         padding: 17px 28px;
@@ -2297,6 +2297,7 @@
         margin-bottom: 22px;
     }
     &-massege {
+        display: block;
         cursor: pointer;
         font-size: 15px;
         color: #ababab;
@@ -2448,7 +2449,7 @@
     align-items: center;
     color: #ababab;
     font-style: 15px;
-    span {
+    a {
         color: #fff;
     }
 }
@@ -2925,7 +2926,7 @@
             padding: 7px 7px;
         }
         .product__info-title {
-            margin-bottom: 14px;
+            margin-bottom: 1px;
             padding-top: 15px;
             font-weight: 500;
             font-size: 18px;
@@ -3914,7 +3915,7 @@
 .pricing__inner {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 115px;
+    padding-bottom: 115px;
 }
 .pricing__item {
     border-top: 3px solid #ff6a6c;
@@ -4230,7 +4231,7 @@
 .blog__info {
     padding-bottom: 30px;
     margin-right: 30px;
-    span {
+    a {
         color: $button;
     }
 }
@@ -4377,7 +4378,7 @@
     }
     li {
         padding-bottom: 18px;
-        button {
+        a {
             background-color: #fff;
             display: inline-flex;
             box-shadow: none;
