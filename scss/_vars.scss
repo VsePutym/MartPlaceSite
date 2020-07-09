@@ -1,0 +1,27 @@
+$grey: #eef1f3;
+$bg: #2a4dd0;
+$footer: #262b30;
+$button: #0674ec;
+$icon: #555555;
+$graylow: #747b86;
+$border: #ececec;
+
+@mixin gray {
+    color: #555555;
+    line-height: 30px;
+}
+
+@mixin f500 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+@mixin f700 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+
